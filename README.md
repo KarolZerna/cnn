@@ -4,6 +4,7 @@ Basandonos en el código de https://victorzhou.com/blog/keras-cnn-tutorial/ los 
 
  -- Resultados obtenidos ejecutando el notebook en dos computadoras.
 
+### Recommended Experiments
 Con los "Recommended Experiments" del tutorial, fuimos variando distintos valores, parámetros, capas, por separado en distintos experimentos:
 
 - Varying network depth: Se agrego una capa de convolución 2D obteniendo un "val_accuracy" maximo de 0.9727 y 0.9764 en cada computadora respectivamente.
@@ -14,6 +15,7 @@ Con los "Recommended Experiments" del tutorial, fuimos variando distintos valore
 
 - Messing with convolution parameters: Añadimos varios parametros a la capa de convolución 2D, obteniendo un "val_accuracy" maximo de 0.9587 en ambas computadoras.
 
+### Personal Experiments
 Haciendo experimentos propios de la misma manera variando valores, parámetros, capas, etc, y juntando varios de estos parametros en un mismo modelo, tenemos los siguientes resultados:
 
 - Experimento 1: Sin dropout obtuvimos un "val_accuracy" maximo de : 0.9800 y 0.9830
