@@ -25,8 +25,8 @@ Haciendo experimentos propios de la misma manera variando valores, parámetros, 
 
   -- Observacion: hasta este punto los mejores valores de "val_accuracy" fueron obtenidos en el 3er epoch
 
-- Experimento 5: Con 3 capas convolucionales, cambiando el loss_function a 'binary_crossentropy' y el número de epochs a 10 y manteniendo los anteriores parametros, obtuvimos: 0.9907 (Epoch 9) y 0.9908 (Epoch 10)
-- Experimento 6: Con 3 capas convolucionales, cambiando el loss_function a 'categorical_crossentropy' y manteniendo los anteriores parametros, obtuvimos 0.9923 (Epoch 7) y 0.9917 (Epoch 10)
+- Experimento 5: Con 3 capas convolucionales, cambiando el loss_function a 'binary_crossentropy' y el número de epochs a 10 y manteniendo los anteriores parametros, obtuvimos un 'val_accuracy' de: 0.9907 (Epoch 9) y 0.9908 (Epoch 10)
+- Experimento 6: Con 3 capas convolucionales, cambiando el loss_function a 'categorical_crossentropy' y manteniendo los anteriores parametros, obtuvimos un 'val_accuracy' de: 0.9923 (Epoch 7) y 0.9917 (Epoch 10)
 
 
 ## Conclusiones
