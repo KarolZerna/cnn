@@ -32,7 +32,7 @@ Realizando los experimentos por separado, agrengando y modificando parámetros a
 
 Juntando todos estos parámetros en un solo modelo vemos que mejoramos el accuracy. Las modificaciones hechas en los loss function, número de filtros y número de epochs, siendo los más reelevantes los dos últimos. Modificando estos parámetros al final de los distintos experimentos obtuvimos un accuracy del 99%.
 
-- El loss fuction no fue tan reelevante ya que los cambios en los resultados no fueron tan significantes.
+- El loss fuction no fue tan reelevante ya que los cambios en los resultados no fueron tan significantes, pero si mejoraron en algunas décimas el accuracy del modelo como se ve el experimento 5 y 6.
 - El número de filtros es significativo ya que el modelo se entrena reconociendo más detalles de la imagen
 - El número de epochs es significativo porque nos permite ver como va mejorando o empeorando el modelo para poder definir un momento oportuno para detener el entrenamiento de la red.
 
